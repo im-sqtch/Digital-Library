@@ -59,3 +59,12 @@
 .container__botao {
     display: none;
 }
+
+.logodevm {
+    width: 55px;
+    height: 55px;
+}
+
+@media screen and (min-width: 1024px) {
+    
+}

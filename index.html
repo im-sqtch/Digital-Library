@@ -36,7 +36,8 @@
                     <a href="#" class="lista-menu__link">Design & UX</a>
                 </li>
             </ul>
-            <img src="img/Logo.svg" alt="Logo">
+            <!-- <img src="img/Logo.svg" alt="Logo"> -->
+            <img src="img/LogoDevM.svg" alt="Logo" class="logodevm">
         </div>
         <div class="container">
             <a href="#"><img src="img/Favoritos.svg" alt="Meus favoritos" class="container__imagem"></a>
@@ -44,15 +45,19 @@
             <a href="#"><img src="img/Usuario.svg" alt="Meu perfil" class="container__imagem"></a>
         </div>
     </header>
+
     <section class="banner">
         <h2 class="banner__titulo">Já sabe por onde começar?</h2>
         <p class="banner__texto">Encontre em nossa estante o que precisa para seu entretenimento!</p>
-        <input type="search" class="banner__pesquisa" placeholder="       Qual será sua próxima história?">
+        <input type="search" class="banner__pesquisa" placeholder="Qual será sua próxima história?">
     </section>
+
     <section class="carrossel">
         <h2 class="carrossel__titulo">Novos lançamentos</h2>
         <!-- Slider main container -->
         <div class="swiper">
+            <!-- If we need pagination -->
+            <div class="swiper-pagination"></div>
             <!-- Additional required wrapper -->
             <div class="swiper-wrapper">
             <!-- Slides -->
@@ -63,21 +68,128 @@
                 <div class="swiper-slide"><img src="img/Oppenheimer.svg" alt="Filme Oppenheimer"></div>
                 <div class="swiper-slide"><img src="img/Resistencia.svg" alt="Filme Resistencia"></div>
             </div>
-            <!-- If we need pagination -->
-            <div class="swiper-pagination"></div>
             <!-- If we need navigation buttons
             <div class="swiper-button-prev"></div>
             <div class="swiper-button-next"></div> -->
             <!-- If we need scrollbar -->
             <div class="swiper-scrollbar"></div>
         </div>
+
+        <div class="card">
+            <!-- 1ª linha -->
+            <div class="card__descricao">
+                <!-- 1ª coluna -->
+                <div class="descricao">
+                    <h3 class="descricao__titulo">Talvez você se interesse por...</h3>
+                    <h2 class="descricao__titulo__livro">The Marvels</h2>
+                    <p class="descricao__texto"> Juntas, esse trio improvável deve ser unir para salvar o universo como "As Marvels".</p>
+                </div>
+                <!-- 2ª coluna -->
+                <img src="img/themarvels.jpg" class="descricao__imagem" alt="The Marvels">
+            </div>
+            <!-- 2ª linha -->
+            <div class="card__botoes">
+                <!-- <ul class="botoes">
+                    <li class="botoes__item"><img src="img/Favoritos.svg" alt="Favoritar"></li>
+                    <li class="botoes__item"><img src="img/Sacola.svg" alt=""></li>
+                </ul> -->
+                <div class="botoes">
+                    <a href="#" class="botoes__item"><img src="img/Favoritos.svg" alt="Favoritar"></a>
+                    <a href="#" class="botoes__item"><img src="img/Sacola.svg" alt="Comprar"></a>
+                </div>
+                <!-- 2ª coluna -->
+                <a href="#" class="botoes__ancora">Saiba mais</a>
+            </div>
+        </div>
     </section>
+
+    <section class="carrossel">
+        <h2 class="carrossel__titulo">Mais Vendidos</h2>
+        <!-- Slider main container -->
+        <div class="swiper">
+            <!-- If we need pagination -->
+            <div class="swiper-pagination"></div>
+            <!-- Additional required wrapper -->
+            <div class="swiper-wrapper">
+            <!-- Slides -->
+                <div class="swiper-slide"><img src="img/Elemental.svg" alt="Filme Elemental"></div>
+                <div class="swiper-slide"><img src="img/MenteCriminosa.svg" alt="Filme Mente Criminosa"></div>
+                <div class="swiper-slide"><img src="img/MeteorStorm.svg" alt="Filme Meteor Storm"></div>
+                <div class="swiper-slide"><img src="img/Mortdecai.svg" alt="Filme Mortdecai"></div>
+                <div class="swiper-slide"><img src="img/Oppenheimer.svg" alt="Filme Oppenheimer"></div>
+                <div class="swiper-slide"><img src="img/Resistencia.svg" alt="Filme Resistencia"></div>
+            </div>
+            <!-- If we need navigation buttons
+            <div class="swiper-button-prev"></div>
+            <div class="swiper-button-next"></div> -->
+            <!-- If we need scrollbar -->
+            <div class="swiper-scrollbar"></div>
+        </div>
+        <div class="card">
+            <!-- 1ª linha -->
+            <div class="card__descricao">
+                <!-- 1ª coluna -->
+                <div class="descricao">
+                    <h3 class="descricao__titulo">Talvez você se interesse por...</h3>
+                    <h2 class="descricao__titulo__livro">The Marvels</h2>
+                    <p class="descricao__texto"> Juntas, esse trio improvável deve ser unir para salvar o universo como "As Marvels".</p>
+                </div>
+                <!-- 2ª coluna -->
+                <img src="img/themarvels.jpg" class="descricao__imagem" alt="The Marvels">
+            </div>
+            <!-- 2ª linha -->
+            <div class="card__botoes">
+                <!-- <ul class="botoes">
+                    <li class="botoes__item"><img src="img/Favoritos.svg" alt="Favoritar"></li>
+                    <li class="botoes__item"><img src="img/Sacola.svg" alt=""></li>
+                </ul> -->
+                <div class="botoes">
+                    <a href="#" class="botoes__item"><img src="img/Favoritos.svg" alt="Favoritar"></a>
+                    <a href="#" class="botoes__item"><img src="img/Sacola.svg" alt="Comprar"></a>
+                </div>
+                <!-- 2ª coluna -->
+                <a href="#" class="botoes__ancora">Saiba mais</a>
+            </div>
+        </div>
+    </section>
+
+    <section class="topicos">
+        <h2 class="topicos__titulo">VISITADOS RECENTEMENTE</h2>
+        <ul class="topicos__lista">
+            <li class="topicos__item">
+                <a href="#" class="topicos__link">Lift</a>
+            </li>
+            <li class="topicos__item">
+                <a href="#" class="topicos__link">Eco</a>
+            </li>
+            <li class="topicos__item">
+                <a href="#" class="topicos__link">Napoleão</a>
+            </li>
+        </ul>
+    </section> 
+
+    <section class="contato">
+        <h2 class="contato__titulo">Fique por dentro das novidades!</h2>
+        <p class="contato__texto">Atualizações de novos lançamentos, trailers, promoções e outros</p>
+        <input type="email" placeholder="Cadastre seu e-mail" class="contato__email">
+    </section>
+
+    <hr/>
+
+    <footer class="rodape">
+        <h2 class="rodape__titulo">Desenvolvido por Gabriel Bomtempo</h2>
+    </footer>
+
     <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
     <script>
         const swiper = new Swiper('.swiper', {
             speed: 400,
             spaceBetween: 10,
             slidesPerView: 3,
+            pagination: {
+                el: '.swiper-pagination',
+                type: 'bullets',
+            },
         });
     </script>
 </body>
